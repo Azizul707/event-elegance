@@ -5,8 +5,8 @@ import CommonSection from "../../Components/CommonSection";
 
 const Service = () => {
 
-    const { services } = useLoaderData( [] ) || [];
-    console.log( services );
+    const { services } = useLoaderData(  );
+   
 
 
 

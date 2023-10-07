@@ -20,7 +20,7 @@ const createRoutes = createBrowserRouter( [ {
         {
             path: '/service',
             element: <Service></Service>,
-            loader:()=> fetch('/services.json')
+            loader: () => fetch( '/services.json' )
         },
         {
             path: '/testimonials',
@@ -35,8 +35,9 @@ const createRoutes = createBrowserRouter( [ {
             element:<Login></Login>
         },
         {
-            path: '/service-details',
-            element:<ServiceDetails/>
+            path: '/service-details/:id',
+            element: <ServiceDetails />,
+            loader: () => fetch( '/services.json' ),
         },
         {
             path: '*',

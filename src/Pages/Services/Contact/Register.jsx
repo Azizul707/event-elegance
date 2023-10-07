@@ -29,7 +29,7 @@ const Register = () => {
                     <input className="w-full border-b-2 p-4 rounded-md" type="password" name="password" placeholder="Password" />
                     </div>
                     <div className="">
-                        <input className="bg-white py-2 px-5 font-semibold rounded-md" type="button" value="Submit" />
+                        <input className="bg-white py-2 px-5 font-semibold rounded-md cursor-pointer btn" type="button" value="Submit" />
                     </div>
                 </form>
                 <div className="mt-10">
