@@ -2,8 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayouts from "../MainLayouts/MainLayouts";
 import Home from "../Pages/Home/Home";
 import Service from "../Pages/Services/Service";
-import Contact from "../Pages/Services/Contact/Contact";
+import Register from "../Pages/Services/Contact/Register";
 import Testimonials from "../Pages/Testimonials/Testimonials";
+import Login from "../Pages/Services/Contact/Login";
+import ServiceDetails from "../Pages/Services/ServiceDetails";
+import ErrorPage from "../Components/ErrorPage";
 
 const createRoutes = createBrowserRouter( [ {
             
@@ -24,8 +27,20 @@ const createRoutes = createBrowserRouter( [ {
             element:<Testimonials></Testimonials>
         },
         {
-            path: '/contact',
-            element:<Contact></Contact>
+            path: '/register',
+            element:<Register></Register>
+        },
+        {
+            path: '/login',
+            element:<Login></Login>
+        },
+        {
+            path: '/service-details',
+            element:<ServiceDetails/>
+        },
+        {
+            path: '*',
+            element:<ErrorPage/>
         }
     ]
 
