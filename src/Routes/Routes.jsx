@@ -3,7 +3,7 @@ import MainLayouts from "../MainLayouts/MainLayouts";
 import Home from "../Pages/Home/Home";
 import Service from "../Pages/Services/Service";
 import Contact from "../Pages/Services/Contact/Contact";
-import AboutUs from "../Pages/About/AboutUs";
+import Testimonials from "../Pages/Testimonials/Testimonials";
 
 const createRoutes = createBrowserRouter( [ {
             
@@ -20,8 +20,8 @@ const createRoutes = createBrowserRouter( [ {
             loader:()=> fetch('/services.json')
         },
         {
-            path: '/about',
-            element:<AboutUs></AboutUs>
+            path: '/testimonials',
+            element:<Testimonials></Testimonials>
         },
         {
             path: '/contact',
