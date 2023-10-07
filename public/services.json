@@ -1,0 +1,101 @@
+{
+    "services": [
+      {
+        "id": "1",
+        "title": "Conferences and Seminars",
+        "description": "We specialize in organizing educational conferences and seminars for your industry.",
+        "image": "https://i.ibb.co/2W8KVnJ/headway-F2-KRf-Qf-Cqw-unsplash.jpg",
+        "price": 5000,
+        "working_process": [
+          "Initial Consultation",
+          "Event Planning",
+          "Execution",
+          "Follow-up"
+        ],
+        "how_we_manage_work": "Our experienced team handles all aspects of event management.",
+        "our_responsibilities": "We handle event planning, promotion, registration, and on-site management.",
+        "pricing": "Custom pricing based on event requirements."
+      },
+      {
+        "id": "2",
+        "title": "Trade Shows and Expos",
+        "description": "Let us showcase your products and services at the biggest trade shows and expos.",
+        "image": "https://i.ibb.co/9rWWV2D/expoeast.jpg",
+        "price": 8000,
+        "working_process": [
+          "Needs Assessment",
+          "Booth Design",
+          "Logistics",
+          "On-site Management"
+        ],
+        "how_we_manage_work": "We offer end-to-end trade show management, from concept to execution.",
+        "our_responsibilities": "Booth design, logistics, on-site support, lead generation, and post-event analysis.",
+        "pricing": "Customized pricing based on trade show requirements."
+      },
+      {
+        "id": "3",
+        "title": "Team Building Workshops",
+        "description": "Enhance your team's collaboration and productivity with our team building workshops.",
+        "image": "https://i.ibb.co/Z62r5zj/employees-working-on-a-scavenger-hunt.webp",
+        "price": 3000,
+        "working_process": [
+          "Assessment",
+          "Workshop Design",
+          "Facilitation",
+          "Evaluation"
+        ],
+        "how_we_manage_work": "We customize team building workshops to meet your team's unique needs.",
+        "our_responsibilities": "Workshop design, materials, facilitation, and assessment.",
+        "pricing": "Custom pricing based on workshop requirements."
+      },
+      {
+        "id": "4",
+        "title": "Product Launches",
+        "description": "Launch your new products with a bang using our expertise in product launch events.",
+        "image": "https://i.ibb.co/bvhvhNT/virtual-product-launch-event-examples.jpg",
+        "price": 10000,
+        "working_process": [
+          "Strategy Development",
+          "Event Planning",
+          "Launch Event",
+          "Post-Launch Analysis"
+        ],
+        "how_we_manage_work": "Our team specializes in creating memorable product launch events.",
+        "our_responsibilities": "Strategy, event planning, execution, and post-launch analysis.",
+        "pricing": "Customized pricing based on product launch requirements."
+      },
+      {
+        "id": "5",
+        "title": "Corporate Meetings",
+        "description": "We ensure your corporate meetings run smoothly, leaving a lasting impression.",
+        "image": "https://i.ibb.co/bbhpZht/Conference-Speaker.jpg",
+        "price": 4000,
+        "working_process": [
+          "Needs Assessment",
+          "Planning",
+          "Meeting Execution",
+          "Follow-up"
+        ],
+        "how_we_manage_work": "We specialize in organizing seamless corporate meetings.",
+        "our_responsibilities": "Venue selection, logistics, on-site support, and post-meeting follow-up.",
+        "pricing": "Custom pricing based on corporate meeting requirements."
+      },
+      {
+        "id": "6",
+        "title": "Award Ceremonies",
+        "description": "Celebrate achievements with our elegant award ceremony planning services.",
+        "image": "https://i.ibb.co/NS69vjw/VR-Awards-2018-award-ceremony-production.jpg",
+        "price": 6000,
+        "working_process": [
+          "Awards Selection",
+          "Ceremony Planning",
+          "Event Execution",
+          "Post-Ceremony Activities"
+        ],
+        "how_we_manage_work": "We specialize in creating elegant award ceremonies.",
+        "our_responsibilities": "Award category design, event planning, execution, and post-ceremony activities.",
+        "pricing": "Customized pricing based on award ceremony requirements."
+      }
+    ]
+  }
+  
