@@ -2,7 +2,7 @@
 
 const FeaturedWorks = () => {
     return (
-        <div className=" md: grid grid-cols-2 justify-items-center mt-5 gap-5">
+        <div className=" md:grid grid-cols-2 justify-items-center mt-5 gap-5">
                 <div className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     <img

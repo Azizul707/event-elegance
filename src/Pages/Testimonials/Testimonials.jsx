@@ -1,7 +1,9 @@
+import CommonSection from "../../Components/CommonSection";
 
 const Testimonials = () => {
     return (
-        <div className="max-w-screen-xl mx-auto mt-24">
+        <div className="">
+            <div className="max-w-screen-xl mx-auto mt-24">
             <div className=" text-center space-y-4">
                 <h4 className="text-4xl font-bold">What Our Clients Says</h4>
                 <p className="text-sm">Discover why our clients rave about us.Hear from those who have experienced <br /> our exceptional service.Read testimonials from satisfied clients.</p>
@@ -63,8 +65,13 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
-
+            
+            </div>
+            <section>
+                <CommonSection/>
+            </section>
         </div>
+        
     );
 };
 

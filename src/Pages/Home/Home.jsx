@@ -1,6 +1,8 @@
 import Marquee from "react-fast-marquee";
 import FeaturedWorks from "./FeaturedWorks";
 import Testimonials from "../Testimonials/Testimonials";
+
+
 const Home = () => {
 
   return (
@@ -99,6 +101,9 @@ const Home = () => {
       <section>
         <Testimonials/>
       </section>
+
+      {/* section six start */ }
+      
 
 
 

@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="bg-base-300">
-            <nav className=" md:flex gap-10 items-center justify-between shadow-lg px-5">
+        <div className="bg-slate-100 sticky top-0 z-40">
+            <nav className=" md:flex gap-10 items-center justify-between shadow-lg p-5">
                 <div className="">
                     
                     <h4 className="text-5xl font-bold"><span className="text-red-800">Event</span> Elegance</h4>
