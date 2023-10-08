@@ -2,7 +2,8 @@
 
 const CommonSection = () => {
     return (
-        <div className="mt-20 relative">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" className="mt-20 relative">
             <img className="w-full" src="https://i.ibb.co/cJRn632/Colored-Shapes-1-1.png" alt="" />
 
             <div className="absolute top-0 right-0 left-0 bottom-0 backdrop-blur-sm">

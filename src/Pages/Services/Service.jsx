@@ -5,7 +5,7 @@ import CommonSection from "../../Components/CommonSection";
 
 const Service = () => {
 
-    const { services } = useLoaderData(  );
+    const { services } = useLoaderData(  ) || { };
    
 
 
@@ -26,6 +26,7 @@ const Service = () => {
 
             </div>
             </div>
+            
             <section>
                 <CommonSection></CommonSection>
             </section>

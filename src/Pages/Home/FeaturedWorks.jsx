@@ -3,7 +3,7 @@
 const FeaturedWorks = () => {
     return (
         <div className=" md:grid grid-cols-2 justify-items-center mt-5 gap-5">
-                <div className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                <div data-aos="zoom-in" className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     <img
       src="https://www.med-technews.com/downloads/8880/download/230607%20RAP%20252.jpg?cb=fe9dbf76f233369cde9ff15e181edd47&w=640"
@@ -32,7 +32,7 @@ const FeaturedWorks = () => {
             </div>
             {/* card two */ }
             
-            <div className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="zoom-in-up" className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     <img
       src="https://cdn.asp.events/CLIENT_UKI_Medi_6CB0191B_5056_B731_4CA9953F2E7125DF/sites/BioWorld-Expo-2020/media/P1000035.jpeg"
@@ -64,7 +64,7 @@ const FeaturedWorks = () => {
             
             {/* cart three */ }
             
-            <div className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="zoom-in" className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGLZuUgDlrxl_X1VRs7l9rejc35cPFdtO68A&usqp=CAU"
@@ -96,7 +96,7 @@ const FeaturedWorks = () => {
             
             {/* card four */ }
             
-            <div className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="zoom-in-up" className="relative flex w-auto flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     <img
       src="https://i0.wp.com/www.dumbfunded.co.uk/wp-content/uploads/2019/08/rsz_adobestock_202458502.jpg?resize=1140%2C694&ssl=1"

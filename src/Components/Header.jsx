@@ -6,14 +6,14 @@ import { AuthContext } from "./AuthProvider/AuthProvider";
 
 const Header = () => {
     const { user, singOut } = useContext( AuthContext );
-    console.log(user);
-    
+    console.log( user );
+
     const handleSingOut = () => {
         singOut()
             .then()
             .catch()
-        
-        
+
+
     }
 
 
@@ -29,23 +29,30 @@ const Header = () => {
                     <li><NavLink to='/service'>Services</NavLink></li>
                     <li><NavLink to='/testimonials'>Testimonials</NavLink></li>
                     <li><NavLink to='/register'>Register</NavLink></li>
+                    {
+                        user && <div className="flex gap-5">
+                            <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
+                            <li><NavLink to='/profile'>Profile</NavLink></li>
+                        </div>
+                    }
                 </ul>
 
                 {/* login section */ }
 
                 <div className="flex gap-5 items-center">
-                    <div className="avatar">
+                    <div className="avatar flex items-center gap-3 font-semibold">
                         <div className="w-16 rounded-full">
-                            <img src={user?.photoURL} />
+                            <img src={ user?.photoURL } />
                         </div>
+                        <p>{ user?.displayName }</p>
                     </div>
                     <div className="">
                         {
-                            user?<button onClick={handleSingOut}>Logout</button> :<Link to='/login'><button>Login</button></Link>
+                            user ? <button onClick={ handleSingOut }>Logout</button> : <Link to='/login'><button>Login</button></Link>
                         }
 
                     </div>
-                    
+
                 </div>
             </nav>
 

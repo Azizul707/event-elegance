@@ -1,6 +1,8 @@
 import Marquee from "react-fast-marquee";
 import FeaturedWorks from "./FeaturedWorks";
 import Testimonials from "../Testimonials/Testimonials";
+import Service from "../Services/Service";
+import ServiceShow from "../Services/ServiceShow";
 
 
 const Home = () => {
@@ -59,7 +61,7 @@ const Home = () => {
       {/* second section start */ }
 
       <section className=" max-w-screen-xl mx-auto mt-24 md:flex gap-36">
-        <div className="flex-1 space-y-6">
+        <div data-aos="fade-right" className="flex-1 space-y-6">
           <h2 className="text-5xl font-bold ">Empowering Corporations to Seamlessly Execute Events</h2>
           <p className="text-sm">At Event Elegance, our mission is to empower corporations with seamless event management solutions. With our expertise and dedication, we take the stress out of planning and executing corporate events, allowing businesses to focus on their core objectives. Whether it is a product launch, a conference, a team-building retreat, or any corporate gathering, we ensure every detail is meticulously handled. From conceptualization to execution, our team is committed to delivering flawless and memorable events that leave a lasting impression. </p>
 
@@ -68,7 +70,7 @@ const Home = () => {
             <span>1000 <br />EMPLOYEE</span>
           </div>
         </div>
-        <div className="flex-1">
+        <div data-aos="fade-left" className="flex-1">
           <img src="https://i.ibb.co/kyNq7ZG/png-transparent-small-business-management-company-employee-benefits-meeting-company-service-public-r.png" alt="" />
         </div>
       </section>
@@ -101,13 +103,6 @@ const Home = () => {
       <section>
         <Testimonials/>
       </section>
-
-      {/* section six start */ }
-      
-
-
-
-
     </div>
 
   );

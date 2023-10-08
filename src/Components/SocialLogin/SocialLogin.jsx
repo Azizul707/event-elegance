@@ -2,15 +2,18 @@ import { useContext } from "react";
 import { FaGoogle, FaGithub } from "react-icons/fa6";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 const SocialLogin = () => {
+    const navigate = useNavigate();
     const { googleLogin,githubLogin } = useContext( AuthContext );
 
     const handleLogin = ( media ) => {
         media()
             .then( res => {
 
-                toast.success('Successfully Login!')
+                toast.success( 'Successfully Login!' )
+                navigate( '/' );
             } )
             .catch( error => {
                 toast.error( 'Some Error Occurred' );

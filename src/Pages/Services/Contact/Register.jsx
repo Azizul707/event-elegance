@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CommonSection from "../../../Components/CommonSection";
 import SocialLogin from "../../../Components/SocialLogin/SocialLogin";
 import { useContext } from "react";
@@ -7,6 +7,7 @@ import toast from "react-hot-toast";
 
 
 const Register = () => {
+    const navigate = useNavigate();
 
     const { createUser } = useContext( AuthContext );
     let regEx = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
@@ -17,15 +18,23 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
 
+        // password validation
         if ( !regEx.test(password) ) {
             toast.error( 'Password should have 8 characters, uppercase,lowercase and a number' )
-            return
+            return;
+        }
+        // email validation
+        const regExEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if ( !regExEmail.test( email ) ) {
+            toast.error( 'Please enter a valid Email' )
+            return;
         }
 
         createUser( email, password )
             .then( res => {
                 console.log( res.user )
-                toast.success('Register Success')
+                toast.success( 'Register Success' )
+                navigate('/')
             } )
             .catch( error => console.log( error ) )
         

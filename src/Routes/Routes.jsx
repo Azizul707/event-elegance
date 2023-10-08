@@ -8,6 +8,8 @@ import Login from "../Pages/Services/Contact/Login";
 import ServiceDetails from "../Pages/Services/ServiceDetails";
 import ErrorPage from "../Components/ErrorPage";
 import PrivateRoute from "./PrivateRoute";
+import Dashboard from "../Components/Dashboard/Dashboard";
+import Profile from "../Components/Dashboard/Profile";
 
 const createRoutes = createBrowserRouter( [ {
             
@@ -39,6 +41,14 @@ const createRoutes = createBrowserRouter( [ {
             path: '/service-details/:id',
             element: <PrivateRoute><ServiceDetails /></PrivateRoute>,
             loader: () => fetch( '/services.json' ),
+        },
+        {
+            path:'/dashboard',
+            element:<PrivateRoute><Dashboard/></PrivateRoute>
+        },
+        {
+            path: '/profile',
+            element:<PrivateRoute><Profile/></PrivateRoute>
         },
         {
             path: '*',
